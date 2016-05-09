@@ -1,0 +1,5 @@
+_site/
+assets/libs
+.sass-cache/
+.jekyll-metadata
+node_modules/
