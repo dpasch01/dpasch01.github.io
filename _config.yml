@@ -1,4 +1,4 @@
-name: China Spice
+name: Jimmy's Portfolio
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 host: 0.0.0.0
