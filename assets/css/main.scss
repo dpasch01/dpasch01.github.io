@@ -1,5 +1,14 @@
-@import "tools/bourbon/bourbon";
+@import "tools/bootstrap-grid";
 
 @import "base/vars";
 @import "base/base";
 @import "base/font";
+
+@import "modules/header";
+@import "modules/life-bar";
+@import "modules/footer";
+
+@import "sections/hero";
+@import "sections/about";
+@import "sections/skills";
+@import "sections/hire-me";
