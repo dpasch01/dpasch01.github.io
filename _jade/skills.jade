@@ -1,48 +1,18 @@
-section.skills
+section.skills#skills
     .container
         .row
             .col-md-12
                 .header Skills
                 .sub-header Wanna know what my skills are?
+                
         .row
-            .col-sm-5
+            {% for item in site.data.skills %}
+            .col-sm-6
                 .health-container
                     .health-bar
-                        .health-percentage.health-8
+                        div(class="health-percentage health-{{item.class}}")
                     .health-status 
-                        span HTML: 80%
-            .col-sm-2
-            .col-sm-5
-                .health-container
-                    .health-bar
-                        .health-percentage.health-8
-                    .health-status 
-                        span HTML: 80%
-        .row
-            .col-sm-5
-                .health-container
-                    .health-bar
-                        .health-percentage.health-8
-                    .health-status 
-                        span HTML: 80%
-            .col-sm-2
-            .col-sm-5
-                .health-container
-                    .health-bar
-                        .health-percentage.health-8
-                    .health-status 
-                        span HTML: 80%
-        .row
-            .col-sm-5
-                .health-container
-                    .health-bar
-                        .health-percentage.health-8
-                    .health-status 
-                        span HTML: 80%
-            .col-sm-2
-            .col-sm-5
-                .health-container
-                    .health-bar
-                        .health-percentage.health-8
-                    .health-status 
-                        span HTML: 80%
+                        span {{item.skill}} : {{item.persentage}}%
+            {% endfor %}
+            
+        

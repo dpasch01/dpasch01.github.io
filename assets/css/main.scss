@@ -1,4 +1,5 @@
 @import "tools/bootstrap-grid";
+@import "tools/sweetalert";
 
 @import "base/vars";
 @import "base/base";
@@ -10,5 +11,6 @@
 
 @import "sections/hero";
 @import "sections/about";
-@import "sections/skills";
 @import "sections/hire-me";
+@import "sections/skills";
+@import "sections/portfolio";

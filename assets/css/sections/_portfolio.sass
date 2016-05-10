@@ -1,0 +1,69 @@
+section.portfolio
+    background-color: $redish
+
+    .header
+        color: $skyline
+
+    .sub-header
+        color: #FFFFFF
+
+    .thumbnail-listing
+        margin-top: 50px
+
+        .col-sm-6
+            padding: 0px
+            margin: 0px
+
+    .thumbnail
+        position: relative
+        transition: all 0.3s ease-in
+        overflow: hidden
+
+        .thumbnail-image
+            z-index: 1
+
+        .thumbnail-caption
+            transition: all 0.3s ease-in
+            z-index: 2
+            position: absolute
+            background: transparentize(#FFFFFF, 0.2)
+            top: 0px
+            left: 0px
+            width: 100%
+            height: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            padding: 0px 20px
+            text-align: center
+            opacity: 0
+
+            .thumbnail-header
+                font-family: 'Source Code Pro'
+                font-size: 18px
+                font-weight: 800
+
+            .thumbnail-details
+                margin-top: 15px
+
+            .view-more
+                margin-top: 20px
+                background: $blueish
+                padding: 10px 15px
+                border-radius: 5px
+                transition: transform 0.3s ease-in
+
+                &:hover
+                    transform: scale(1.2)
+
+                a
+                    font-family: 'Source Code Pro'
+                    font-size: 14px
+                    text-decoration: none
+                    color: #FFFFFF
+
+        &:hover
+
+        &:hover > .thumbnail-caption
+            opacity: 1

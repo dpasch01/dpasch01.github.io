@@ -3,21 +3,23 @@ footer
         .row
             .col-sm-5
                 .footer-header About me
-                .footer-about Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                .footer-about 
+                    p Nicosia based web developer and designer who strives to marry the love of web and graphic design by finding a harmonious balance between functionality and aesthetics. 
+                    p Part-time drummer, indie games lover, cartoonist, runner and dreamer. 
                 .social-media
                     ul
-                        li: a(href="#") <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                        li: a(href="#") <i class="fa fa-instagram" aria-hidden="true"></i>
-                        li: a(href="#") <i class="fa fa-codepen" aria-hidden="true"></i>
-                        li: a(href="#") <i class="fa fa-github" aria-hidden="true"></i>
+                        li: a(target="_blank" href="https://www.facebook.com/jimmy.paschalides") <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        li: a(target="_blank" href="#") <i class="fa fa-instagram" aria-hidden="true"></i>
+                        li: a(target="_blank" href="http://codepen.io/dpasch01/") <i class="fa fa-codepen" aria-hidden="true"></i>
+                        li: a(target="_blank" href="https://github.com/dpasch01") <i class="fa fa-github" aria-hidden="true"></i>
 
             .col-sm-2
             .col-sm-5
                 .footer-header Contact 
-                form
+                form#contact
                     .row
                         .col-sm-12
-                            input(id='emailinput' name='emailinput' placeholder='Email' class='form-control input-md' type='text' required)
+                            input(id='emailinput' name='emailinput' placeholder='Email' class='form-control input-md' type='email' required)
                     .row
                         .col-sm-12
                             textarea(id='messageinput' name='messageinput' placeholder='Message' class='form-control' required)

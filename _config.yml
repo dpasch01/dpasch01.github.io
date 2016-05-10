@@ -1,3 +1,7 @@
 name: China Spice
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+host: 0.0.0.0
+port: 4000
+collections:
+    portfolio:

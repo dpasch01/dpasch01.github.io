@@ -1,0 +1,19 @@
+section.portfolio#portfolio
+    .container
+        .row
+            .col-md-12
+                .header Portfolio
+                .sub-header Here are some works worth mensioning!
+        .row.thumbnail-listing
+            {% for item in site.portfolio %}
+            .col-sm-6
+                .thumbnail
+                    .thumbnail-image
+                        img(src="assets/img/portfolio/{{item.thumbnail}}").img-responsive
+                    .thumbnail-caption 
+                        .thumbnail-header {{ item.title }}
+                        .thumbnail-details {{ item.description }}
+                        .view-more
+                            a(target="_blank" href="{{ item.site }}") View more
+            {% endfor %}
+        
