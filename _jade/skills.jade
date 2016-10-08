@@ -10,7 +10,7 @@ section.skills#skills
             .col-sm-6
                 .health-container
                     .health-bar
-                        div(class="health-percentage health-{{item.class}}")
+                        div(item-class = "{{item.class}}", class="health-percentage")
                     .health-status 
                         span {{item.skill}} : {{item.persentage}}%
             {% endfor %}

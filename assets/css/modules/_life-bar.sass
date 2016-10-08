@@ -27,9 +27,16 @@
             height: 31px
             background: $redish
 
+
         @for $i from 0 through 10
+            @keyframes healing-#{$i}
+                from
+                    width: 0px
+                to
+                    width: 10% * $i
+
             .health-percentage.health-#{$i}
-                width: 10% * $i
+                animation: healing-#{$i} 2s ease-in-out 0s forwards
 
     .health-status
         display: flex

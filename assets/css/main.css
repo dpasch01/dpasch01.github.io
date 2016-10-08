@@ -14,7 +14,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -2903,28 +2903,171 @@ header {
       position: absolute;
       height: 31px;
       background: #C0054C; }
+
+@-webkit-keyframes healing-0 {
+  from {
+    width: 0px; }
+  to {
+    width: 0%; } }
+
+@keyframes healing-0 {
+  from {
+    width: 0px; }
+  to {
+    width: 0%; } }
     .health-container .health-bar .health-percentage.health-0 {
-      width: 0%; }
+      -webkit-animation: healing-0 2s ease-in-out 0s forwards;
+              animation: healing-0 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-1 {
+  from {
+    width: 0px; }
+  to {
+    width: 10%; } }
+
+@keyframes healing-1 {
+  from {
+    width: 0px; }
+  to {
+    width: 10%; } }
     .health-container .health-bar .health-percentage.health-1 {
-      width: 10%; }
+      -webkit-animation: healing-1 2s ease-in-out 0s forwards;
+              animation: healing-1 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-2 {
+  from {
+    width: 0px; }
+  to {
+    width: 20%; } }
+
+@keyframes healing-2 {
+  from {
+    width: 0px; }
+  to {
+    width: 20%; } }
     .health-container .health-bar .health-percentage.health-2 {
-      width: 20%; }
+      -webkit-animation: healing-2 2s ease-in-out 0s forwards;
+              animation: healing-2 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-3 {
+  from {
+    width: 0px; }
+  to {
+    width: 30%; } }
+
+@keyframes healing-3 {
+  from {
+    width: 0px; }
+  to {
+    width: 30%; } }
     .health-container .health-bar .health-percentage.health-3 {
-      width: 30%; }
+      -webkit-animation: healing-3 2s ease-in-out 0s forwards;
+              animation: healing-3 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-4 {
+  from {
+    width: 0px; }
+  to {
+    width: 40%; } }
+
+@keyframes healing-4 {
+  from {
+    width: 0px; }
+  to {
+    width: 40%; } }
     .health-container .health-bar .health-percentage.health-4 {
-      width: 40%; }
+      -webkit-animation: healing-4 2s ease-in-out 0s forwards;
+              animation: healing-4 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-5 {
+  from {
+    width: 0px; }
+  to {
+    width: 50%; } }
+
+@keyframes healing-5 {
+  from {
+    width: 0px; }
+  to {
+    width: 50%; } }
     .health-container .health-bar .health-percentage.health-5 {
-      width: 50%; }
+      -webkit-animation: healing-5 2s ease-in-out 0s forwards;
+              animation: healing-5 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-6 {
+  from {
+    width: 0px; }
+  to {
+    width: 60%; } }
+
+@keyframes healing-6 {
+  from {
+    width: 0px; }
+  to {
+    width: 60%; } }
     .health-container .health-bar .health-percentage.health-6 {
-      width: 60%; }
+      -webkit-animation: healing-6 2s ease-in-out 0s forwards;
+              animation: healing-6 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-7 {
+  from {
+    width: 0px; }
+  to {
+    width: 70%; } }
+
+@keyframes healing-7 {
+  from {
+    width: 0px; }
+  to {
+    width: 70%; } }
     .health-container .health-bar .health-percentage.health-7 {
-      width: 70%; }
+      -webkit-animation: healing-7 2s ease-in-out 0s forwards;
+              animation: healing-7 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-8 {
+  from {
+    width: 0px; }
+  to {
+    width: 80%; } }
+
+@keyframes healing-8 {
+  from {
+    width: 0px; }
+  to {
+    width: 80%; } }
     .health-container .health-bar .health-percentage.health-8 {
-      width: 80%; }
+      -webkit-animation: healing-8 2s ease-in-out 0s forwards;
+              animation: healing-8 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-9 {
+  from {
+    width: 0px; }
+  to {
+    width: 90%; } }
+
+@keyframes healing-9 {
+  from {
+    width: 0px; }
+  to {
+    width: 90%; } }
     .health-container .health-bar .health-percentage.health-9 {
-      width: 90%; }
+      -webkit-animation: healing-9 2s ease-in-out 0s forwards;
+              animation: healing-9 2s ease-in-out 0s forwards; }
+
+@-webkit-keyframes healing-10 {
+  from {
+    width: 0px; }
+  to {
+    width: 100%; } }
+
+@keyframes healing-10 {
+  from {
+    width: 0px; }
+  to {
+    width: 100%; } }
     .health-container .health-bar .health-percentage.health-10 {
-      width: 100%; }
+      -webkit-animation: healing-10 2s ease-in-out 0s forwards;
+              animation: healing-10 2s ease-in-out 0s forwards; }
   .health-container .health-status {
     display: -ms-flexbox;
     display: flex;
@@ -2949,85 +3092,20 @@ header {
       -webkit-transform: skewX(25deg);
               transform: skewX(25deg); }
 
-footer {
-  padding: 65px 0px 20px 0px;
-  background-color: #007996; }
-  footer .footer-header {
-    font-family: 'Source Code Pro';
-    font-size: 20px;
-    font-weight: 800;
-    margin-bottom: 10px;
-    color: #B4E4F0; }
-  footer .footer-about {
-    text-align: justify;
-    color: #DDDDDD; }
-  footer .social-media {
-    padding: 20px 60px; }
-    footer .social-media ul {
-      list-style-type: none;
-      padding: 0px;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-      footer .social-media ul a {
-        transition: all 0.2s ease-in;
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
-        text-decoration: none;
-        color: #FFFFFF;
-        background-color: #C0054C;
-        font-size: 30px;
-        padding: 4px 10px;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%; }
-        footer .social-media ul a:hover {
-          background-color: #007996;
-          box-shadow: none; }
-  footer form input,
-  footer form textarea {
-    padding: 5px 5px;
-    border-radius: 5px;
-    width: 100%;
-    margin-bottom: 20px; }
-  footer form input {
-    height: 35px; }
-  footer form textarea {
-    height: 90px; }
-  footer form .button-holder {
-    margin-top: 0px; }
-    footer form .button-holder button {
-      transition: -webkit-transform ease-in 0.3s;
-      transition: transform ease-in 0.3s;
-      padding: 10px 30px;
-      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
-      font-family: 'Source Code Pro';
-      font-size: 18px;
-      border: none;
-      background-color: #C0054C;
-      color: #FFFFFF;
-      border-radius: 5px; }
-      footer form .button-holder button:hover {
-        -webkit-transform: scale(1.1);
-                transform: scale(1.1); }
-
 .copyright {
   padding: 15px 0px;
   background-color: #FFFFFF;
   text-align: center;
-  font-size: 13px; }
+  font-size: 18px; }
   .copyright span {
     display: block; }
-
-@media (min-width: 768px) and (max-width: 992px) {
-  footer .social-media {
-    padding: 20px 30px; } }
 
 section.hero {
   min-height: 100vh;
   background-color: #B4E4F0;
   padding-top: 0px; }
   section.hero .hero-content {
+    min-height: 80vh;
     padding-top: 40px;
     display: -ms-flexbox;
     display: flex;
@@ -3041,7 +3119,13 @@ section.hero {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
-        justify-content: center; }
+        justify-content: center;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out; }
+    section.hero .hero-image:hover {
+      cursor: pointer;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg); }
   section.hero .hero-message {
     background-color: #FFFFFF;
     padding: 10px 15px;
@@ -3118,7 +3202,7 @@ section.skills .health-container {
 section.portfolio {
   background-color: #C0054C; }
   section.portfolio .header {
-    color: #B4E4F0; }
+    color: #FFFFFF; }
   section.portfolio .sub-header {
     color: #FFFFFF; }
   section.portfolio .thumbnail-listing {
@@ -3154,10 +3238,11 @@ section.portfolio {
       opacity: 0; }
       section.portfolio .thumbnail .thumbnail-caption .thumbnail-header {
         font-family: 'Source Code Pro';
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 800; }
       section.portfolio .thumbnail .thumbnail-caption .thumbnail-details {
-        margin-top: 15px; }
+        margin-top: 15px;
+        font-size: 20px; }
       section.portfolio .thumbnail .thumbnail-caption .view-more {
         margin-top: 20px;
         background: #007996;
@@ -3170,8 +3255,112 @@ section.portfolio {
                   transform: scale(1.2); }
         section.portfolio .thumbnail .thumbnail-caption .view-more a {
           font-family: 'Source Code Pro';
-          font-size: 14px;
+          font-size: 18px;
           text-decoration: none;
           color: #FFFFFF; }
     section.portfolio .thumbnail:hover > .thumbnail-caption {
       opacity: 1; }
+
+section.social .header {
+  color: #C0054C; }
+
+section.social .sub-header {
+  color: #007996; }
+
+section.social .social-media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  section.social .social-media ul {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    max-width: 768px;
+    padding: 10px 0px; }
+    section.social .social-media ul li {
+      display: inline;
+      margin: 10px; }
+      section.social .social-media ul li a {
+        font-size: 32px;
+        text-decoration: none;
+        color: #CECECE;
+        transition: all ease 0.8s; }
+        section.social .social-media ul li a:hover {
+          color: #007996; }
+
+section.contact {
+  background-color: #B4E4F0; }
+  section.contact .header {
+    color: #C0054C; }
+  section.contact .sub-header {
+    color: #007996; }
+  section.contact form {
+    padding: 50px;
+    padding-top: 20px;
+    background-color: #FEFEFE;
+    max-width: 768px;
+    margin: 20px auto 50px auto;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-animation: swinging 2s ease-in-out 0s infinite;
+            animation: swinging 2s ease-in-out 0s infinite; }
+    section.contact form .form-pin {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      margin-bottom: 20px; }
+      section.contact form .form-pin .pin {
+        background-color: #B4E4F0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: solid 3px #007996;
+        box-shadow: inset 1px 1px 0px rgba(0, 0, 0, 0.5); }
+    section.contact form textarea,
+    section.contact form input[type="email"] {
+      font-size: 25px;
+      font-weight: 300;
+      padding: 10px 20px;
+      border: 1px solid #999;
+      border-radius: 3px;
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      outline: none; }
+      section.contact form textarea:focus,
+      section.contact form input[type="email"]:focus {
+        border-color: #007996; }
+    section.contact form textarea {
+      height: 150px; }
+    section.contact form button {
+      border: none; }
+    section.contact form .button-holder {
+      margin-top: 20px; }
+
+@-webkit-keyframes swinging {
+  0% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg); }
+  50% {
+    -webkit-transform: rotate(-0.5deg);
+            transform: rotate(-0.5deg); }
+  100% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg); } }
+
+@keyframes swinging {
+  0% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg); }
+  50% {
+    -webkit-transform: rotate(-0.5deg);
+            transform: rotate(-0.5deg); }
+  100% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg); } }

@@ -31,6 +31,17 @@ $(window).scroll(function(){
     }else if($('.top-button').is(':hidden')){
         $('.top-button').show(300);
     }
+
+    var skillsTop = $('#skills').offset().top;
+    var skillsHeight = $('#skills').height();
+    var skillsDistance = skillsTop - wScroll;
+    var skillsDifference = skillsDistance - skillsHeight;
+    if(skillsDifference < 0){
+      $('.health-bar div').each(function(index){
+        var itemClass = $(this).attr('item-class');
+        $(this).addClass("health-" + itemClass);
+      });
+    }
 });
 
 $('#contact').submit(function(e){
