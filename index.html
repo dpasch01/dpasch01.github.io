@@ -10,15 +10,15 @@
         const redirect = sessionStorage.getItem('redirect');
         sessionStorage.removeItem('redirect');
         if (redirect && redirect !== window.location.pathname) {
-          // Vite replaces / here too. The path in sessionStorage is absolute,
+          // Vite replaces /~dpasch01/ here too. The path in sessionStorage is absolute,
           // so we construct the new URL correctly.
-          const newPath = '/'.slice(0, -1) + redirect;
+          const newPath = '/~dpasch01/'.slice(0, -1) + redirect;
           history.replaceState(null, null, newPath);
         }
       })();
     </script>
-    <script type="module" crossorigin src="/assets/main-BM1kAxdc.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-BgCBiJSX.css">
+    <script type="module" crossorigin src="/~dpasch01/assets/main-DpGx18ZO.js"></script>
+    <link rel="stylesheet" crossorigin href="/~dpasch01/assets/main-BgCBiJSX.css">
   </head>
 
   <body class="bg-background text-foreground">
