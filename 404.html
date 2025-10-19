@@ -8,11 +8,11 @@
       const path = window.location.pathname + window.location.search + window.location.hash;
       sessionStorage.setItem('redirect', path);
       
-      // Vite will replace /~dpasch01/ with the correct path during the build.
-      window.location.replace('/~dpasch01/');
+      // Vite will replace / with the correct path during the build.
+      window.location.replace('/');
     </script>
   </head>
   <body>
-    If you are not redirected automatically, please <a href="/~dpasch01/">click here</a>.
+    If you are not redirected automatically, please <a href="/">click here</a>.
   </body>
 </html>
